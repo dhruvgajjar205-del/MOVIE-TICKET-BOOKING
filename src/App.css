@@ -1,0 +1,142 @@
+.App {
+  min-height: 100vh;
+  background: white;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.card {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin: 1rem 0;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.btn-primary {
+  background-color: #dc3545;
+  border: none;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+.btn-primary:hover {
+  background-color: #c82333;
+}
+
+.btn-secondary {
+  background-color: #6c757d;
+  border: none;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border-radius: 4px;
+}
+
+.btn-secondary:hover {
+  background-color: #5a6268;
+}
+
+.btn-light-blue {
+  background: linear-gradient(135deg, #007bff 0%, #0056b3 100%);
+  border: none;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 123, 255, 0.3);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.btn-light-blue:hover {
+  background: linear-gradient(135deg, #0056b3 0%, #004085 100%);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 8px rgba(0, 123, 255, 0.4);
+}
+
+.btn-light-blue:active {
+  transform: translateY(0);
+  box-shadow: 0 2px 4px rgba(0, 123, 255, 0.3);
+}
+
+.booking-history-container {
+  background: white;
+  min-height: 100vh;
+  padding: 2rem 0;
+}
+
+.booking-card {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  padding: 1.5rem;
+  margin: 1rem 0;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.booking-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.5);
+}
+
+.booking-title {
+  color: #333333;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.booking-text {
+  color: #555555;
+  line-height: 1.6;
+}
+
+.booking-badge-confirmed {
+  background-color: #28a745;
+  color: white;
+}
+
+.booking-badge-cancelled {
+  background-color: #dc3545;
+  color: white;
+}
+
+.booking-badge-default {
+  background-color: #6c757d;
+  color: white;
+}
+
+.btn-cancel {
+  background: linear-gradient(135deg, #dc3545 0%, #c82333 100%);
+  border: none;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 6px rgba(220, 53, 69, 0.3);
+}
+
+.btn-cancel:hover {
+  background: linear-gradient(135deg, #c82333 0%, #a71e2a 100%);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 8px rgba(220, 53, 69, 0.4);
+}
+
+.booking-section {
+  margin-bottom: 1rem;
+  padding: 1rem;
+  border-radius: 12px;
+  background: white;
+  border: 1px solid #ddd;
+}
